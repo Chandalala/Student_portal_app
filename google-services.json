@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "261839400355",
+    "firebase_url": "https://wua-app.firebaseio.com",
+    "project_id": "wua-app",
+    "storage_bucket": "wua-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261839400355:android:c4660dafb59a7971497e16",
+        "android_client_info": {
+          "package_name": "com.chandalala.wua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261839400355-et4et8825orifvdd9qkhj897vg6dt58k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chandalala.wua",
+            "certificate_hash": "acd34c9f2c17cb6541f0e06d0b9b69a4e446e129"
+          }
+        },
+        {
+          "client_id": "261839400355-bthoh5tvrj16ehe7joaqeqa1eu46eoio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNwGGv2pGKYXgjljMDWpUm6QowqyXwqfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261839400355-bthoh5tvrj16ehe7joaqeqa1eu46eoio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

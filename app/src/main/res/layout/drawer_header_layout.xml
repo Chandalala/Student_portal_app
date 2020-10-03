@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+    android:gravity="center"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/about"
+        android:layout_marginTop="80dp"
+        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="W180058"
+        android:textColor="@color/textColor"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:typeface="normal"
+        android:fontFamily="sans-serif"
+
+     />
+
+    <TextView
+        android:id="@+id/txt_student_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chandalala Tinashe"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:typeface="normal"
+        android:fontFamily="sans-serif"
+
+     />
+
+
+</LinearLayout>

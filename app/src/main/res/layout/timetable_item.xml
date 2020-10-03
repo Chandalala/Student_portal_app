@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/timetable_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:elevation="15dp"
+    app:cardCornerRadius="5dp"
+    app:contentPaddingBottom="16dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lecture_available_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/txt_current_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="11-09-1968"
+            android:textAppearance="@style/medium_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_programme_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="Bsc Information Systems"
+            android:textAppearance="@style/medium_text"
+            app:layout_constraintEnd_toEndOf="@+id/txt_current_date"
+            app:layout_constraintStart_toStartOf="@+id/txt_current_date"
+            app:layout_constraintTop_toBottomOf="@+id/txt_current_date" />
+
+        <TextView
+            android:id="@+id/txt_course_code_and_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="IS321-Java"
+            android:textAppearance="@style/medium_text"
+            app:layout_constraintEnd_toEndOf="@+id/txt_programme_name"
+            app:layout_constraintStart_toStartOf="@+id/txt_programme_name"
+            app:layout_constraintTop_toBottomOf="@+id/txt_programme_name" />
+
+        <TextView
+            android:id="@+id/txt_venue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="Room A6"
+            android:textAppearance="@style/medium_text"
+            app:layout_constraintEnd_toEndOf="@+id/txt_course_code_and_title"
+            app:layout_constraintStart_toStartOf="@+id/txt_course_code_and_title"
+            app:layout_constraintTop_toBottomOf="@+id/txt_course_code_and_title" />
+
+        <TextView
+            android:id="@+id/txt_session_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="Evening 1730hrs-1930hrs"
+            android:textAppearance="@style/medium_text"
+            app:layout_constraintEnd_toEndOf="@+id/txt_venue"
+            app:layout_constraintStart_toStartOf="@+id/txt_venue"
+            app:layout_constraintTop_toBottomOf="@+id/txt_venue" />
+
+        <TextView
+            android:id="@+id/txt_lecturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Mr D. Sibanda"
+            android:textAppearance="@style/medium_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txt_session_time"
+            app:layout_constraintStart_toStartOf="@+id/txt_session_time"
+            app:layout_constraintTop_toBottomOf="@+id/txt_session_time" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
+

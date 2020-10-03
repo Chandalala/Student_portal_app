@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chandalala.wua">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".views.MainActivity"></activity>
+        <activity
+            android:name=".views.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".views.FragmentContainerActivity" />
+        <activity android:name=".views.StudentID_InstructionActivity" />
+        <activity android:name=".views.StudentID_InstructionsActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".views.ZimSwitchPaymentActivity" />
+        <activity android:name=".views.OneMoneyPaymentActivity" />
+        <activity
+            android:name=".views.EcocashPaymentActivity"
+            android:label="@string/title_activity_ecocash_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".views.ProfileActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".views.PaymentActivity" />
+        <activity android:name=".views.TimetableActivity" />
+        <activity android:name=".views.E_LearningActivity" />
+        <activity android:name=".views.ResultsActivity" />
+        <activity android:name=".views.RegistrationActivity" />
+        <activity android:name=".views.AccountActivity" />
+        <activity android:name=".views.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".views.HomeActivity" />
+        <activity android:name=".views.Student_ID_InstructionActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#6b9b36</color>
+    <color name="colorAccent">#6b9b36</color>
+
+    <color name="colorGreen">#cddc39</color>
+    <color name="orange">#cddc39</color>
+    <color name="Button">#ffffff</color>
+
+    <color name="backColor">#cddc39</color>
+    <color name="topColor">#fff9c4</color>
+    <color name="textColor">#424242</color>
+    <color name="headColor">#212121</color>
+
+    <color name="cell_background_color">#ffffff</color>
+    <color name="header_line_color">#0a0a0a</color>
+    <color name="table_view_default_text_color">#0a0a0a</color>
+
+    <!--OnBoard-->
+    <color name="selected_dot">#2D9CDB</color>
+    <color name="idle_dot">#662D9CDB</color>
+    <color name="ob_header">#4A4A4A</color>
+    <color name="ob_desc">#4A4A4A</color>
+
+
+</resources>

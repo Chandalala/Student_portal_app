@@ -1,0 +1,26 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+
+
+    <!-- OnBoard. -->
+
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="pager_dot_size">8dp</dimen>
+    <dimen name="pager_height">16dp</dimen>
+    <dimen name="ob_header_top_margin">50dp</dimen>
+
+    <dimen name="ob_desc_padding">30dp</dimen>
+    <dimen name="ob_banner_height">300dp</dimen>
+    <dimen name="items_inbetween">8dp</dimen>
+
+    <dimen name="button_text">18sp</dimen>
+    <dimen name="ob_header_text_size">22sp</dimen>
+    <dimen name="ob_desc_text_size">18sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+</resources>
